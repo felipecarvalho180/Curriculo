@@ -1,0 +1,21 @@
+.Dados {
+    font-size: 13px;
+    width: 100%;
+    align-items: center;
+}
+
+.Dados .Azul {
+    color: #0187cd;
+}
+
+.Profissao {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #6d787e;
+}
+
+.Nome {
+    line-height: 0.5;
+    font-size: 30px;
+}

@@ -1,0 +1,78 @@
+.Insta:hover, .Face:hover, .Linkedin:hover, 
+.Insta:active, .Face:active, .Linkedin:active {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    display: inline-flex;
+    border: solid 1px black;
+    background-color: #bcbcbc;
+    cursor: pointer;
+}
+
+.Face {
+    background-image: url('../../../../../assets/facebook-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 2px 5px;
+    display: inline-flex;
+    border: solid 1px #bcbcbc;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Linkedin {
+    background-image: url('../../../../../assets/linkedin-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 2px 5px;
+    display: inline-flex;
+    border: solid 1px #bcbcbc;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Insta {
+    background-image: url('../../../../../assets/instagram-logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 2px 5px;
+    display: inline-flex;
+    border: solid 1px #bcbcbc;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Curriculo {
+    width: 150px;
+    height: 30px;
+    border: solid 1px #cacaca;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    margin: 2px 5px;
+}
+
+@media (max-width: 870px) {
+    .Curriculo {
+        width: 150px;
+        height: 30px;
+        border: solid 1px #cacaca;
+        background-color: white;
+        cursor: pointer;
+        text-align: center;
+        position: relative;
+        margin: 2px 5px;
+    }
+}
+

@@ -1,31 +1,30 @@
-import React from 'react';
-import RedesSociais from './RedesSociais/RedesSociais';
-import foto from '../../../assets/foto.jpg'
+import React, { Component } from 'react';
 import classes from './Descricao.css';
+import FotoCurriculo from './Foto/Foto';
+import Dados from './Dados/Dados';
 
-const descricao = (props) => {
-    return(
-        <div className={classes.Descri}>
-            <div>
-                <img src={foto} alt="foto" className={classes.Foto}/> <br/>
-                <button className={classes.Curriculo}>Baixar Curriculo</button>
+class Descricao extends Component {
+    state = {
+        idade: 21,
+        endereco: 'Siméria, Petrópolis-RJ - Brasil',
+        email: 'felipecarvalho180@gmail.com',
+        telefone: '(24) 992560137',
+        nacionalidade: 'Brasileiro'
+    }
+
+    render() {
+        return(
+            <div className={classes.Descri}>
+                <FotoCurriculo/>
+                <Dados
+                    idade={this.state.idade}
+                    endereco={this.state.endereco}
+                    email={this.state.email}
+                    tel={this.state.telefone}
+                    nacionalidade={this.state.nacionalidade}/>
             </div>
-            <div className={classes.Dados}>
-                <p className={classes.Nome}>Felipe <span className={classes.Azul}>Carvalho</span><br/>
-                <span className={classes.Profissao}>Desenvolvedor Web</span></p>
-                <p>Olá eu sou Felipe Carvalho. Estudo Desenvolvimento Web a 1 ano, estudando varios elementos
-                    do Desenvolvimento Web como HTML, CSS, JavaScript, SASS, React, JQuery e Bootstrap. Tive breve
-                    contato com C++ na faculdade e Java durante um periodo que estudava Android.
-                </p>
-                <p>Idade: 21</p>
-                <p>Endereço: Siméria, Petrópolis-RJ, Brasil</p>
-                <p>Email: felipecarvalho180@gmail.com</p>
-                <p>Telefone: (24) 992560137</p>
-                <p>Nacionalidade: Brasileiro</p>
-                <RedesSociais/>
-            </div>
-        </div>
-    );
+        );
+    }
 }
 
-export default descricao;
+export default Descricao;

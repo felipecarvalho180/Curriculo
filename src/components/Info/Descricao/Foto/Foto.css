@@ -1,0 +1,15 @@
+.Foto {
+    width: 350px;
+    height: 349px;
+    border: solid 1px #cacaca;
+    margin: 20px;
+}
+
+@media (max-width: 750px) {
+    .Foto {
+        width: 250px;
+        height: 249px;
+        border: solid 1px #cacaca;
+        margin: 20px;
+    }
+}

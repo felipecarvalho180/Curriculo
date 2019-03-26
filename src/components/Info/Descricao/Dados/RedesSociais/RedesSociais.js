@@ -1,5 +1,4 @@
 import React from 'react';
-
 import classes from './RedesSociais.css';
 
 const redesSociais = (props) => (
@@ -8,6 +7,7 @@ const redesSociais = (props) => (
             <button className={classes.Face}></button>
             <button className={classes.Linkedin}></button>
             <button className={classes.Insta}></button>
+            <button className={classes.Curriculo}>Baixar Curriculo</button>
         </div>
 );
 
