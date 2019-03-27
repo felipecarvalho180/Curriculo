@@ -10,11 +10,11 @@ const dados = (props) => (
             do Desenvolvimento Web como HTML, CSS, JavaScript, SASS, React, JQuery e Bootstrap. Tive breve
             contato com C++ na faculdade e Java durante um periodo que estudava Android.
         </p>
-        <p>Idade: {props.idade}</p>
-        <p>Endereço: {props.endereco}</p>
-        <p>Email: {props.email}</p>
-        <p>Telefone: {props.tel}</p>
-        <p>Nacionalidade: {props.nacionalidade}</p>
+        <p><span className={classes.LetraCinza}>Idade:  </span> {props.idade}</p>
+        <p><span className={classes.LetraCinza}>Endereço:  </span> {props.endereco}</p>
+        <p><span className={classes.LetraCinza}>Email:  </span> {props.email}</p>
+        <p><span className={classes.LetraCinza}>Telefone:  </span> {props.tel}</p>
+        <p><span className={classes.LetraCinza}>Nacionalidade:  </span> {props.nacionalidade}</p>
         <RedesSociais/>
     </div>
 )

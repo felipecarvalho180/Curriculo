@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.Dados .Azul {
+.Azul {
     color: #0187cd;
 }
 
@@ -12,6 +12,11 @@
     margin: 0;
     padding: 0;
     font-size: 15px;
+    color: #6d787e;
+}
+
+.LetraCinza {
+    font-size: 13px;
     color: #6d787e;
 }
 
