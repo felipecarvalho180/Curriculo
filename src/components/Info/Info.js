@@ -2,7 +2,7 @@ import React from 'react';
 import Descricao from './Descricao/Descricao';
 
 const info = (props) => (
-    <Descricao/>
+        <Descricao/>
 );
 
 export default info;

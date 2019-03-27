@@ -22,7 +22,7 @@
     width: 30px;
     height: 30px;
     padding: 5px;
-    margin: 2px 5px;
+    margin: 5px;
     display: inline-flex;
     border: solid 1px #bcbcbc;
     background-color: white;
@@ -36,7 +36,7 @@
     width: 30px;
     height: 30px;
     padding: 5px;
-    margin: 2px 5px;
+    margin: 5px;
     display: inline-flex;
     border: solid 1px #bcbcbc;
     background-color: white;
@@ -80,7 +80,7 @@
     cursor: pointer;
     text-align: center;
     position: absolute;
-    margin: 2px 5px;
+    margin: 5px;
 }
 
 .Curriculo:hover,
@@ -93,7 +93,7 @@
     cursor: pointer;
     text-align: center;
     position: absolute;
-    margin: 2px 5px;
+    margin: 5px;
 }
 
 @media (max-width: 920px) {
@@ -106,7 +106,7 @@
         cursor: pointer;
         text-align: center;
         position: relative;
-        margin: 2px 5px;
+        margin: 5px;
     }
 
     .Curriculo:hover,
@@ -119,11 +119,11 @@
         cursor: pointer;
         text-align: center;
         position: relative;
-        margin: 2px 5px;
+        margin: 5px;
     }
 }
 
-@media (min-width: 650px) and (max-width: 750px) {
+@media (min-width: 650px) and (max-width: 919px) {
     .Curriculo {
         width: 150px;
         height: 30px;
@@ -133,7 +133,7 @@
         cursor: pointer;
         text-align: center;
         position: absolute;
-        margin: 2px 5px;
+        margin: 5px;
     }
     .Curriculo:hover,
     .Curriculo:active {
@@ -145,6 +145,6 @@
         cursor: pointer;
         text-align: center;
         position: absolute;
-        margin: 2px 5px;
+        margin: 5px;
     }
 }

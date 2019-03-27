@@ -1,0 +1,71 @@
+.Habi1 {
+    margin-top: 50px;
+    padding: 50px;
+    border: solid 1px #cacaca;
+    background-color: white;
+    width: 38%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    float: left;
+}
+
+.Habi2 {
+    margin-top: 50px;
+    padding: 50px;
+    border: solid 1px #cacaca;
+    background-color: white;
+    width: 38%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    float: right;
+}
+
+@media (min-width: 910px) and (max-width: 1100px) {
+    .Habi1 {
+        margin-top: 50px;
+        border: solid 1px #cacaca;
+        background-color: white;
+        width: 37%;
+        height: 100%;
+        display: flex;
+        text-align: justify;
+        position: relative;
+        float: left;
+    }
+    
+    .Habi2 {
+        margin-top: 50px;
+        border: solid 1px #cacaca;
+        background-color: white;
+        width: 37%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        float: right;
+    }
+}
+
+@media (max-width: 909px) {
+    .Habi1 {
+        margin-top: 50px;
+        border: solid 1px #cacaca;
+        background-color: white;
+        height: 100%;
+        width: -webkit-fill-available;
+        display: flex;
+        text-align: justify;
+        position: relative;
+    }
+    
+    .Habi2 {
+        margin-top: 50px;
+        border: solid 1px #cacaca;
+        background-color: white;
+        height: 100%;
+        width: -webkit-fill-available;
+        display: flex;
+        position: relative;
+    }
+}

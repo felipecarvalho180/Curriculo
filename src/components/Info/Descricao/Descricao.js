@@ -2,18 +2,20 @@ import React, { Component } from 'react';
 import classes from './Descricao.css';
 import FotoCurriculo from './Foto/Foto';
 import Dados from './Dados/Dados';
+import Auxiliary from '../../../hoc/Auxiliary/Auxiliary';
 
 class Descricao extends Component {
-    state = {
+    state = { 
         idade: 21,
         endereco: 'Siméria, Petrópolis-RJ - Brasil',
         email: 'felipecarvalho180@gmail.com',
         telefone: '(24) 992560137',
-        nacionalidade: 'Brasileiro'
+        nacionalidade: 'Brasileiro',
     }
 
     render() {
         return(
+        <Auxiliary>
             <div className={classes.Descri}>
                 <FotoCurriculo/>
                 <Dados
@@ -23,6 +25,7 @@ class Descricao extends Component {
                     tel={this.state.telefone}
                     nacionalidade={this.state.nacionalidade}/>
             </div>
+        </Auxiliary>
         );
     }
 }
