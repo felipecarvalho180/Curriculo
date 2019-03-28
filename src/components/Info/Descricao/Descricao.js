@@ -12,31 +12,38 @@ class Descricao extends Component {
         email: 'felipecarvalho180@gmail.com',
         telefone: '(24) 992560137',
         nacionalidade: 'Brasileiro',
-        ano: null   
+        ano: 0,
+        anoNovo: 0,
     }
     
-        componentDidMount () {
-            axios.get('/anos.json')
-                .then(response => {
-                    this.setState({ano: response.data});
-
-                })
-                .catch(error => {
-                    this.setState({error: true});
-                });
-            const now = new Date();
-            const day = now.getDate();
-            const month = now.getMonth() + 1;
-            /*if (day === 27 && month === 3) {
-                const data = {
-                    ano: this.state.ano + 1
-                }
-                axios.post('/anos.json', data)
-                .then(response => {
-                    console.log(response);
-                }); 
-            }*/
+    componentDidMount () {
+        const now = new Date();  
+        for (let ny = this.state.anoNovo; ny < 1; ny++) {
+            let year = now.getFullYear();
+            let firstDay = 2018;
+            let sum = ( year - firstDay );
+            let sum2 = this.state.ano;
+            let data = sum + sum2;
+            axios.put('https://curriculo-c6781.firebaseio.com/ano.json', data)
+            .then(response => {
+                console.log(response);
+                this.setState({ano: data});
+                this.setState({ano: this.state.ano})
+            });      
         }
+    }
+    
+
+    componentWillMount () {
+
+        axios.get('https://curriculo-c6781.firebaseio.com/ano.json')
+        .then(response => {
+
+        })
+        .catch(error => {
+            this.setState({error: true});
+        });
+    }
 
     render() {   
         return(
