@@ -1,35 +1,47 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Auxiliary from '../../../hoc/Auxiliary/Auxiliary';
 import classes from './LinguagensProgramacao.css';
+import Linguagem from './Linguagem/Linguagem';
 
-const linguagensProgramacao = (props) => (
-    <Auxiliary>
-        <h1 className={classes.Habi}>Habilidades Profissionais</h1>
-        <div>
-            <p className={classes.Skills}>Html <span className={classes.Percent}>85%</span></p>
-            <div className={classes.Progress}>
-                <div className={classes.ProgressbarHtml}></div>
-            </div>
-        </div>
-        <div>
-            <p className={classes.Skills}>Css <span className={classes.Percent}>75%</span></p>
-            <div className={classes.Progress}>
-                <div className={classes.ProgressbarCss}></div>
-            </div>
-        </div>
-        <div>
-            React
-        </div>
-        <div>
-            JavaScript
-        </div>
-        <div>
-            Sass
-        </div>
-        <div>
-            Bootstrap
-        </div>
-    </Auxiliary>
-);
-
-export default linguagensProgramacao;
+class LinguagensProgramacao extends Component {
+    state = {
+        html: 'HTML', html2: '85%',   
+        css: 'CSS', css2: '75%',
+        react: 'React', react2: '65%',
+        javascript: 'JavaScript', javascript2: '65%',  
+        sass: 'SASS', sass2: '65%',   
+        bootstrap: 'Bootstrap', bootstrap2: '55%'
+    }
+    render(){
+        return(
+            <Auxiliary>
+                <h1 className={classes.Habi}>Habilidades Profissionais</h1>
+                <Linguagem
+                    Ling={this.state.html}
+                    LingP={this.state.html2}
+                    Progressbar={classes.ProgressbarHtml}/>
+                <Linguagem
+                    Ling={this.state.css}
+                    LingP={this.state.css2}
+                    Progressbar={classes.ProgressbarCss}/>
+                <Linguagem
+                    Ling={this.state.react}
+                    LingP={this.state.react2}
+                    Progressbar={classes.ProgressbarReact}/>
+                <Linguagem
+                    Ling={this.state.javascript}
+                    LingP={this.state.javascript2}
+                    Progressbar={classes.ProgressbarJS}/>
+                <Linguagem
+                    Ling={this.state.sass}
+                    LingP={this.state.sass2}
+                    Progressbar={classes.ProgressbarSass}/>
+                <Linguagem
+                    Ling={this.state.bootstrap}
+                    LingP={this.state.bootstrap2}
+                    Progressbar={classes.ProgressbarBoot}/>
+            </Auxiliary>
+        )
+    }
+}
+export default LinguagensProgramacao;

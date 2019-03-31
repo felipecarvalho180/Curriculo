@@ -1,0 +1,19 @@
+.Skills {
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 1;
+    color: #777;
+}
+
+.Percent {
+    margin-bottom: 0;
+    line-height: 1;
+    float: right;
+    color: #777;
+}
+
+.Progress{
+    height: 15px;
+    background-color: #777;
+    position: relative;
+}

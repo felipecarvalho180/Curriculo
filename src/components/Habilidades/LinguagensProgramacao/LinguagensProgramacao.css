@@ -9,27 +9,7 @@
     text-align: center;
 }
 
-.Skills {
-    margin-bottom: 0;
-    margin-top: 10px;
-    line-height: 1;
-    color: #777;
-}
-
-.Percent {
-    margin-bottom: 0;
-    line-height: 1;
-    float: right;
-    color: #777;
-}
-
-.Progress{
-    height: 15px;
-    background-color: #777;
-    position: relative;
-}
-
-.Progress .ProgressbarHtml{
+.ProgressbarHtml{
     width: 85%;
     margin-bottom: 5px;
     margin-top: 0;
@@ -43,7 +23,7 @@
     100% { width: 85%}  
 }
 
-.Progress .ProgressbarCss{
+.ProgressbarCss{
     width: 75%;
     height: 15px;
     margin-top: 0;
@@ -56,7 +36,57 @@
     100% { width: 75%}  
 }
 
+.ProgressbarReact{
+    width: 65%;
+    height: 15px;
+    margin-top: 0;
+    position: absolute;
+    background-color: #0187cd;
+    animation: progress-barCss 3s linear
+}
+@keyframes progress-barCss{
+    0% { width: 0%; }   
+    100% { width: 65%}  
+}
 
+.ProgressbarJS{
+    width: 65%;
+    height: 15px;
+    margin-top: 0;
+    position: absolute;
+    background-color: #0187cd;
+    animation: progress-barCss 3s linear
+}
+@keyframes progress-barCss{
+    0% { width: 0%; }   
+    100% { width: 65%}  
+}
+
+.ProgressbarSass{
+    width: 65%;
+    height: 15px;
+    margin-top: 0;
+    position: absolute;
+    background-color: #0187cd;
+    animation: progress-barCss 3s linear
+}
+@keyframes progress-barCss{
+    0% { width: 0%; }   
+    100% { width: 65%}  
+}
+
+.ProgressbarBoot{
+    width: 55%;
+    height: 15px;
+    margin-top: 0;
+    position: absolute;
+    background-color: #0187cd;
+    animation: progress-barCss 3s linear
+}
+@keyframes progress-barCss{
+    0% { width: 0%; }   
+    100% { width: 55%}  
+}
 
 @media (min-width: 750px) and (max-width: 1030px) {
     .Habi {
