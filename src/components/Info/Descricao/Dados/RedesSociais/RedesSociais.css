@@ -74,7 +74,7 @@
 .Curriculo {
     width: 150px;
     height: 30px;
-    font-family: "Veneer Clean Reg";
+    font-family: "Veneer Clean Soft";
     border: solid 1px #cacaca;
     background-color: white;
     cursor: pointer;
@@ -87,7 +87,7 @@
 .Curriculo:active {
     width: 150px;
     height: 30px;
-    font-family: "Veneer Clean Reg";
+    font-family: "Veneer Clean Soft";
     border: solid 1px black;
     background-color: white;
     cursor: pointer;
@@ -100,7 +100,7 @@
     .Curriculo {
         width: 150px;
         height: 30px;
-        font-family: "Veneer Clean Reg";
+        font-family: "Veneer Clean Soft";
         border: solid 1px #cacaca;
         background-color: white;
         cursor: pointer;
@@ -113,7 +113,7 @@
     .Curriculo:active {
         width: 150px;
         height: 30px;
-        font-family: "Veneer Clean Reg";
+        font-family: "Veneer Clean Soft";
         border: solid 1px black;
         background-color: white;
         cursor: pointer;
@@ -127,7 +127,7 @@
     .Curriculo {
         width: 150px;
         height: 30px;
-        font-family: "Veneer Clean Reg";
+        font-family: "Veneer Clean Soft";
         border: solid 1px #cacaca;
         background-color: white;
         cursor: pointer;
@@ -139,7 +139,7 @@
     .Curriculo:active {
         width: 150px;
         height: 30px;
-        font-family: "Veneer Clean Reg";
+        font-family: "Veneer Clean Soft";
         border: solid 1px black;
         background-color: white;
         cursor: pointer;
