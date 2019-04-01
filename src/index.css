@@ -3,11 +3,20 @@
 body {
   margin: 0;
   padding: 50px;
-  font-family: "Veneer Clean Reg";
   text-align: center;
+  font-family: "Veneer Clean Soft";
   display: flex;
   flex-direction: column;
   background-color:#ebebeb;
   justify-content: center;
   align-items: center;
 }
+
+@font-face {font-family: "Veneer Clean Soft";
+  src: url("//db.onlinewebfonts.com/t/14bcfd7986d2631f04b55ff9a0cf1837.eot");
+  src: url("//db.onlinewebfonts.com/t/14bcfd7986d2631f04b55ff9a0cf1837.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/14bcfd7986d2631f04b55ff9a0cf1837.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/14bcfd7986d2631f04b55ff9a0cf1837.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/14bcfd7986d2631f04b55ff9a0cf1837.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/14bcfd7986d2631f04b55ff9a0cf1837.svg#Veneer Clean Soft") format("svg");
+};
