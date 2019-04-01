@@ -1,5 +1,5 @@
 {
-  "main.css": "/Curriculo/static/css/main.b63d9d77.chunk.css",
+  "main.css": "/Curriculo/static/css/main.a84cbcbc.chunk.css",
   "main.js": "/Curriculo/static/js/main.a57f6509.chunk.js",
   "main.js.map": "/Curriculo/static/js/main.a57f6509.chunk.js.map",
   "runtime~main.js": "/Curriculo/static/js/runtime~main.77597c98.js",
@@ -7,8 +7,8 @@
   "static/js/2.c2721462.chunk.js": "/Curriculo/static/js/2.c2721462.chunk.js",
   "static/js/2.c2721462.chunk.js.map": "/Curriculo/static/js/2.c2721462.chunk.js.map",
   "index.html": "/Curriculo/index.html",
-  "precache-manifest.e56442c03aae1db3042ba1002cd3ebbd.js": "/Curriculo/precache-manifest.e56442c03aae1db3042ba1002cd3ebbd.js",
+  "precache-manifest.f4b0eb43e414d30d5640860830b29072.js": "/Curriculo/precache-manifest.f4b0eb43e414d30d5640860830b29072.js",
   "service-worker.js": "/Curriculo/service-worker.js",
-  "static/css/main.b63d9d77.chunk.css.map": "/Curriculo/static/css/main.b63d9d77.chunk.css.map",
+  "static/css/main.a84cbcbc.chunk.css.map": "/Curriculo/static/css/main.a84cbcbc.chunk.css.map",
   "static/media/foto.jpg": "/Curriculo/static/media/foto.37424448.jpg"
 }
