@@ -8,7 +8,7 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/js/runtime~main.77597c98.js"
   },
   {
-    "revision": "0c714ce760c7aec5715c",
+    "revision": "8799630acd6ce15d29b2",
     "url": "/Curriculo/static/js/main.a57f6509.chunk.js"
   },
   {
@@ -16,11 +16,11 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/js/2.c2721462.chunk.js"
   },
   {
-    "revision": "0c714ce760c7aec5715c",
-    "url": "/Curriculo/static/css/main.a84cbcbc.chunk.css"
+    "revision": "8799630acd6ce15d29b2",
+    "url": "/Curriculo/static/css/main.3679a31d.chunk.css"
   },
   {
-    "revision": "bed535419ac71137fd5db91a89a3caab",
+    "revision": "bd4d76f3d2fff3b66ca7266a81c61505",
     "url": "/Curriculo/index.html"
   }
 ];
