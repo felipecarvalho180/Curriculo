@@ -31,11 +31,6 @@ class Descricao extends Component {
                 this.setState({ano: this.state.ano})
             });      
         }
-    }
-    
-
-    componentWillMount () {
-
         axios.get('https://curriculo-c6781.firebaseio.com/ano.json')
         .then(response => {
 
