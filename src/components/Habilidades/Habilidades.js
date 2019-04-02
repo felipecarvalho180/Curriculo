@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './Habilidades.css';
 import Auxiliary from '../../hoc/Auxiliary/Auxiliary'
 import LinguagensProgramacao from './LinguagensProgramacao/LinguagensProgramacao';
+import Adicionais from './Adicionais/Adicionais';
 
 const habilidades = (props) => (
         <Auxiliary>
@@ -9,7 +10,9 @@ const habilidades = (props) => (
             <div className={classes.Habi1}>
                 <LinguagensProgramacao/>
             </div>
-            <div className={classes.Habi2}></div>
+            <div className={classes.Habi2}>
+                <Adicionais/>
+            </div>
         </Auxiliary>
 )
 

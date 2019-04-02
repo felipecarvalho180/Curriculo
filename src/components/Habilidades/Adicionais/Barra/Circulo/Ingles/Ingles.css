@@ -1,0 +1,28 @@
+.ReactProgressCirclecircle {
+    fill: transparent;
+    stroke: #777;
+  }
+
+.ReactProgressCirclecircleBackground {
+    fill: transparent;
+    stroke: #0187cd;
+    transition: stroke-dashoffset 0.8s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.Span {
+    z-index: 1;
+    color: black;
+    font-size: 16px;
+}
+
+.Div {
+    display: flex;
+    flex-direction: column;
+} 
+
+.Div2 {
+    display: flex;
+    justify-content: space-around;
+}
