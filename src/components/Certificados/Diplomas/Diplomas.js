@@ -11,21 +11,38 @@ import d9 from '../../../assets/img009.jpg'
 
 const diplomas = (props) => (
     <div className={classes.Diplomas}>
-        <div className={classes.CDiplo}>
-            <img className={classes.Diploma} src={d1} alt="curriculo"/>
-            <img className={classes.Diploma} src={d2} alt="curriculo"/>
+        <h3 className={classes.Azul}>Udemy</h3>
+        <div className={classes.GDiplo}>
+            <div className={classes.CDiplo}>
+                <img className={classes.Diploma} src={d1} alt="curriculo"/>
+            </div>
+            <div className={classes.CDiplo}>
+                <img className={classes.Diploma} src={d2} alt="curriculo"/>
+            </div>
+            <div className={classes.CDiplo}>
+                <img className={classes.Diploma} src={d3} alt="curriculo"/>
+            </div>
+            <div className={classes.CDiplo}>
+                <img className={classes.Diploma} src={d4} alt="curriculo"/>
+            </div>
+            <div className={classes.CDiplo}>
+                <img className={classes.Diploma} src={d9} alt="curriculo"/>         
+            </div>
         </div>
-        <div className={classes.CDiplo}>
-            <img className={classes.Diploma} src={d3} alt="curriculo"/>
-            <img className={classes.Diploma} src={d4} alt="curriculo"/>
+        <h3 className={classes.Azul}>Bradesco Escola</h3>
+        <div className={classes.GDiplo}>
+            <div className={classes.CDiplo}>
+                <img className={classes.Diploma} src={d6} alt="curriculo"/>
+            </div>
         </div>
-        <div className={classes.CDiplo}>
-            <img className={classes.Diploma} src={d9} alt="curriculo"/>
-            <img className={classes.Diploma} src={d6} alt="curriculo"/>
-        </div>
-        <div className={classes.CDiplo}>
-            <img className={classes.Diploma2} src={d7} alt="curriculo"/>
-            <img className={classes.Diploma2} src={d8} alt="curriculo"/>
+        <h3 className={classes.Azul}>Senai EAD</h3>
+        <div className={classes.GDiplo}>
+            <div className={classes.CDiplo2}>
+                <img className={classes.Diploma2} src={d7} alt="curriculo"/>
+            </div>
+            <div className={classes.CDiplo2}>
+                <img className={classes.Diploma2} src={d8} alt="curriculo"/>
+            </div>
         </div>
     </div>
 )

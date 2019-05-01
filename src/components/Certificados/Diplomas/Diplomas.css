@@ -1,5 +1,5 @@
 .Diplomas {
-    margin: 0;
+    margin: 5px;
     width: auto;
     padding: 50px;
     border: solid 1px #cacaca;
@@ -8,6 +8,11 @@
     display: flex;
     position: relative;
     flex-direction: column;
+}
+
+.Azul {
+    margin-top: 60px;
+    color: #0187cd;
 }
 
 .Diploma {
@@ -26,21 +31,22 @@
     float: left;
 }
 
-.Diploma2:hover {
-    padding: 0px;
-    width: 360px;
-    height: 458px;
-    box-shadow: 0 2px 3px #ccc;
-    float: left;
-}
-
 .CDiplo {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-@media (min-width: 980px) {
+.CDiplo2 {
+    width: 250px;
+    height: 348px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (min-width: 501px) {
     .Diplomas {
         margin: 0;
         padding: 50px;
@@ -51,19 +57,29 @@
         position: relative;
         flex-direction: column;
     }
+
+    .Azul {
+        margin-top: 20px;
+        color: #0187cd;
+    }
+
+    .GDiplo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        box-shadow: 0 2px 7px #ccc;
+        padding: 20px;
+    }
     
     .Diploma {
         padding: 0px;
-        margin-top: 30px;
-        width: 348px;
-        height: 250px;
+        width: 100%;
         box-shadow: 0 2px 3px #ccc;
         float: left;
     }
     
     .Diploma2 {
         padding: 0px;
-        margin-top: 30px;
         width: 250px;
         height: 348px;
         box-shadow: 0 2px 3px #ccc;
@@ -71,17 +87,26 @@
     }
 
     .CDiplo {
+        width: 348px;
+        height: 250px;
+        margin: 5px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
     
+    .CDiplo2 {
+        width: 250px;
+        height: 348px;
+        margin: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
-@media (max-width: 979px) {
+@media (max-width: 500px) {
     .Diplomas {
-        margin: 0;
-        width: 60%;
         margin-left: 15%;
         padding: 50px;
         border: solid 1px #cacaca;
@@ -91,10 +116,15 @@
         position: relative;
         flex-direction: column;
     }
+
+    .Azul {
+        margin-top: 20px;
+        color: #0187cd;
+    }
     
     .Diploma {
         padding: 0px;
-        margin-top: 30px;
+        margin-top: 10px;
         width: 298px;
         height: 200px;
         box-shadow: 0 2px 3px #ccc;
@@ -103,10 +133,8 @@
     
     .Diploma2 {
         padding: 0px;
-        margin-top: 30px;
-        width: 250px;
-        height: 348px;
-        box-shadow: 0 2px 3px #ccc;
+        width: 100%;
+        box-shadow: 1px 2px 3px #ccc;
         float: left;
     }
 
@@ -117,12 +145,12 @@
         align-items: center;
     }
 
-    .Diploma2:hover {
-        padding: 0px;
-        width: 300px;
-        height: 398px;
-        box-shadow: 0 2px 3px #ccc;
-        float: left;
+    .CDiplo2 {
+        width: 250px;
+        height: 348px;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
-
 }
