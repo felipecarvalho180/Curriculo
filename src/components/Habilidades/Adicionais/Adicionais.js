@@ -7,20 +7,24 @@ const adicionais = (props) => (
     <div className={classes.Div}>
         <h1 className={classes.Habi}>Habilidades Adicionais</h1>
         <Barra/>
-        <div className={classes.Skills}>
+        <div className={classes.Skills}>            
             <BonusSkills
                 skill="PhotoShop"/>
             <BonusSkills
                 skill="REST API"/>
-            
-        </div>
-        <div className={classes.Skills2}>
             <BonusSkills
                 skill="Routing"/>
+        </div>
+        <div className={classes.Skills}>
+            <BonusSkills
+                skill="C++"/>
+            <BonusSkills
+                skill="Java"/>
             <BonusSkills
                 skill="Fundamentos de Design"/>
         </div>
     </div>
+
 );
 
 export default adicionais;

@@ -1,0 +1,126 @@
+.Diplomas {
+    margin: 0;
+    width: auto;
+    padding: 50px;
+    border: solid 1px #cacaca;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.Diploma {
+    padding: 0px;
+    width: 348px;
+    height: 250px;
+    box-shadow: 0 2px 3px #ccc;
+    float: left;
+}
+
+.Diploma2 {
+    padding: 0px;
+    width: 250px;
+    height: 348px;
+    box-shadow: 0 2px 3px #ccc;
+    float: left;
+}
+
+.Diploma2:hover {
+    padding: 0px;
+    width: 360px;
+    height: 458px;
+    box-shadow: 0 2px 3px #ccc;
+    float: left;
+}
+
+.CDiplo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (min-width: 980px) {
+    .Diplomas {
+        margin: 0;
+        padding: 50px;
+        border: solid 1px #cacaca;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    
+    .Diploma {
+        padding: 0px;
+        margin-top: 30px;
+        width: 348px;
+        height: 250px;
+        box-shadow: 0 2px 3px #ccc;
+        float: left;
+    }
+    
+    .Diploma2 {
+        padding: 0px;
+        margin-top: 30px;
+        width: 250px;
+        height: 348px;
+        box-shadow: 0 2px 3px #ccc;
+        float: left;
+    }
+
+    .CDiplo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+}
+
+@media (max-width: 979px) {
+    .Diplomas {
+        margin: 0;
+        padding: 50px;
+        border: solid 1px #cacaca;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    
+    .Diploma {
+        padding: 0px;
+        margin-top: 30px;
+        width: 298px;
+        height: 200px;
+        box-shadow: 0 2px 3px #ccc;
+        float: left;
+    }
+    
+    .Diploma2 {
+        padding: 0px;
+        margin-top: 30px;
+        width: 250px;
+        height: 348px;
+        box-shadow: 0 2px 3px #ccc;
+        float: left;
+    }
+
+    .CDiplo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Diploma2:hover {
+        padding: 0px;
+        width: 300px;
+        height: 398px;
+        box-shadow: 0 2px 3px #ccc;
+        float: left;
+    }
+
+}
