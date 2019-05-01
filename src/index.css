@@ -10,6 +10,7 @@
 }
 
 body {
+  width: 100%;
   margin: 0;
   padding: 50px;
   text-align: center;
@@ -19,4 +20,19 @@ body {
   background-color:#ebebeb;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 250px) and (max-width: 500px) {
+  body {
+    width: 50%;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    font-family: "Veneer Clean Soft";
+    display: flex;
+    flex-direction: column;
+    background-color:#ebebeb;
+    justify-content: center;
+    align-items: center;
+  }
 }
