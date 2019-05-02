@@ -30,7 +30,7 @@ const redesSociais = (props) => (
                 <button className={classes.Github}></button>
             </a>
             <a 
-                href="http://www.mediafire.com/file/a9fw2j4nj8ayq9g/Felipe_CV.pdf/file"
+                href="http://www.mediafire.com/file/82z18v1qob9y804/Felipe+CV.pdf"
                 rel="noopener noreferrer"
                 target="_blank">
                 <button className={classes.Curriculo}>
