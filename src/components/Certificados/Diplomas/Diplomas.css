@@ -15,6 +15,25 @@
     color: #0187cd;
 }
 
+.arrowDown {
+    font-style: italic;
+    margin: 0 0 0 7px;
+    border: solid black;
+    border-width: 0 1px 1px 0 !important;
+    display: inline-block;
+    padding: 3px;
+
+}
+
+.arrowDown {
+    border: solid #001330;
+
+}
+
+.arrowDown:active {
+    transform: rotate(45deg) !important;
+}
+
 .Diploma {
     padding: 0px;
     width: 348px;
@@ -62,6 +81,37 @@
     .Azul {
         margin-top: 20px;
         color: #0187cd;
+        cursor: pointer;
+    }
+
+    .Azul:hover {
+        margin-top: 20px;
+        color: black;
+        cursor: pointer;
+    }
+
+    .arrowDown {
+        font-style: italic;
+        margin: 0 0 0 10px;
+        border: solid black;
+        border-width: 0 1px 1px 0 !important;
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .arrowDown {
+        border: solid #001330;
+        transform: rotate(-45deg);
+    }
+
+    .arrowDown2 {
+        margin: 0 0 0 10px;
+        border: solid black;
+        border-width: 0 1px 1px 0 !important;
+        display: inline-block;
+        padding: 3px;
+        border: solid #001330;
+        transform: rotate(45deg) !important;
     }
 
     .GDiplo {
@@ -126,9 +176,30 @@
         flex-direction: column;
     }
 
-    .Azul {
-        margin-top: 20px;
-        color: #0187cd;
+    
+
+    .arrowDown {
+        font-style: italic;
+        margin: 0 0 0 10px;
+        border: solid black;
+        border-width: 0 1px 1px 0 !important;
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .arrowDown {
+        border: solid #001330;
+        transform: rotate(-45deg);
+    }
+
+    .arrowDown2 {
+        margin: 0 0 0 10px;
+        border: solid black;
+        border-width: 0 1px 1px 0 !important;
+        display: inline-block;
+        padding: 3px;
+        border: solid #001330;
+        transform: rotate(45deg) !important;
     }
     
     .Diploma {

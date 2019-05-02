@@ -48,7 +48,7 @@ class Diplomas extends Component {
         if (this.state.displayUdemy) {
             udemy = (
                 <Auxiliary>
-                <h3 onClick={this.udemyHandlerOff} className={classes.Azul}>Fechar</h3>
+                <h3 onClick={this.udemyHandlerOff} className={classes.Azul}>Udemy<i className={classes.arrowDown2}></i></h3>
                     <div className={classes.GDiplo2}>
                         <div className={classes.CDiplo}>
                             <img className={classes.Diploma} src={d1} alt="curriculo"/>
@@ -69,14 +69,14 @@ class Diplomas extends Component {
                 </Auxiliary>
             )
         } else {
-            udemy = (<h3 onClick={this.udemyHandlerOn} className={classes.Azul}>Udemy</h3>)
+            udemy = (<h3 onClick={this.udemyHandlerOn} className={classes.Azul}>Udemy<i className={classes.arrowDown}></i></h3>)
         }
 
         let bradesco;
         if (this.state.displayBradesco) {
             bradesco = (
             <Auxiliary>
-            <h3 onClick={this.bradescoHandlerOff} className={classes.Azul}>Fechar</h3>
+            <h3 onClick={this.bradescoHandlerOff} className={classes.Azul}>Bradesco Escola<i className={classes.arrowDown2}></i></h3>
                 <div className={classes.GDiplo2}>
                     <div className={classes.CDiplo}>
                         <img className={classes.Diploma} src={d6} alt="curriculo"/>
@@ -84,14 +84,14 @@ class Diplomas extends Component {
                 </div>
             </Auxiliary>)
         } else {
-            bradesco = (<h3 onClick={this.bradescoHandlerOn} className={classes.Azul}>Bradesco Escola</h3>)
+            bradesco = (<h3 onClick={this.bradescoHandlerOn} className={classes.Azul}>Bradesco Escola<i className={classes.arrowDown}></i></h3>)
         }
 
         let senai;
         if (this.state.displaySenai) {
             senai = (
                 <Auxiliary>
-                    <h3 onClick={this.senaiHandlerOff} className={classes.Azul}>Fechar</h3>
+                    <h3 onClick={this.senaiHandlerOff} className={classes.Azul}>Senai EAD<i className={classes.arrowDown2}></i></h3>
                     <div className={classes.GDiplo2}>
                         <div className={classes.CDiplo2}>
                             <img className={classes.Diploma2} src={d7} alt="curriculo"/>
@@ -103,7 +103,11 @@ class Diplomas extends Component {
                 </Auxiliary>
                 ) 
         } else {
-            senai = (<h3 onClick={this.senaiHandlerOn} className={classes.Azul}>Senai EAD</h3>)
+            senai = (
+                <div>
+                    <h3 onClick={this.senaiHandlerOn} className={classes.Azul}>Senai EAD<i className={classes.arrowDown}></i></h3>
+                </div>
+            )
         }
 
         return(
