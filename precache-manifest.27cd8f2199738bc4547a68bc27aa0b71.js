@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/img003.366053eb.jpg"
   },
   {
-    "revision": "a0e7ac706a2fb8322a43",
+    "revision": "72be483f88f705ab15d7",
     "url": "/Curriculo/static/css/main.485a7c0b.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/img002.c5ab1d54.jpg"
   },
   {
-    "revision": "a0e7ac706a2fb8322a43",
-    "url": "/Curriculo/static/js/main.b0824a4b.chunk.js"
+    "revision": "72be483f88f705ab15d7",
+    "url": "/Curriculo/static/js/main.ebff8577.chunk.js"
   },
   {
     "revision": "1a164e4664c8a5476860668d26e9ada9",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/img009.ad3f9309.jpg"
   },
   {
-    "revision": "2c142eb343ef19de8180661df86e9e2e",
+    "revision": "926e77cf45121b7741c575733d4949ea",
     "url": "/Curriculo/index.html"
   }
 ];
