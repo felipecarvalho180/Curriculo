@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/img004.1a164e46.jpg"
   },
   {
-    "revision": "cb5c13132fa99cdeabbe",
-    "url": "/Curriculo/static/css/main.4f9e0be4.chunk.css"
+    "revision": "f8b5251332adee65bacb",
+    "url": "/Curriculo/static/css/main.26a3b376.chunk.css"
   },
   {
     "revision": "fa8696e4e3ec336dffce",
     "url": "/Curriculo/static/js/runtime~main.77597c98.js"
   },
   {
-    "revision": "0179048c64ed4c596f3b",
-    "url": "/Curriculo/static/js/2.82d49470.chunk.js"
+    "revision": "83815fb5246bcf1919da",
+    "url": "/Curriculo/static/js/2.4829d7bc.chunk.js"
   },
   {
     "revision": "37424448b77a5f9dd66522b4cc72b3a3",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/img003.366053eb.jpg"
   },
   {
-    "revision": "cb5c13132fa99cdeabbe",
-    "url": "/Curriculo/static/js/main.dbfebf25.chunk.js"
+    "revision": "f8b5251332adee65bacb",
+    "url": "/Curriculo/static/js/main.3fd0894b.chunk.js"
   },
   {
     "revision": "e23fb33207cb24d142959fb1ef4e3113",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/logoBurger.b8503d26.png"
   },
   {
-    "revision": "7b5c4971893aa613abde74562bf3a583",
+    "revision": "1eceb89f7a29350a3f1fcb58f2066c9c",
     "url": "/Curriculo/index.html"
   }
 ];
