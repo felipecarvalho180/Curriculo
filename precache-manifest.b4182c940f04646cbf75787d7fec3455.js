@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "366053eb035fd35141ee8d94c0742360",
-    "url": "/Curriculo/static/media/img003.366053eb.jpg"
+    "revision": "1a164e4664c8a5476860668d26e9ada9",
+    "url": "/Curriculo/static/media/img004.1a164e46.jpg"
   },
   {
-    "revision": "72be483f88f705ab15d7",
-    "url": "/Curriculo/static/css/main.485a7c0b.chunk.css"
+    "revision": "76d2f4001d341ded939e",
+    "url": "/Curriculo/static/css/main.ab6c2f77.chunk.css"
   },
   {
     "revision": "fa8696e4e3ec336dffce",
     "url": "/Curriculo/static/js/runtime~main.77597c98.js"
   },
   {
-    "revision": "49830dfb307d168ff641",
-    "url": "/Curriculo/static/js/2.9cf6a4be.chunk.js"
+    "revision": "0179048c64ed4c596f3b",
+    "url": "/Curriculo/static/js/2.82d49470.chunk.js"
   },
   {
     "revision": "37424448b77a5f9dd66522b4cc72b3a3",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/img002.c5ab1d54.jpg"
   },
   {
-    "revision": "72be483f88f705ab15d7",
-    "url": "/Curriculo/static/js/main.ebff8577.chunk.js"
+    "revision": "366053eb035fd35141ee8d94c0742360",
+    "url": "/Curriculo/static/media/img003.366053eb.jpg"
   },
   {
-    "revision": "1a164e4664c8a5476860668d26e9ada9",
-    "url": "/Curriculo/static/media/img004.1a164e46.jpg"
+    "revision": "76d2f4001d341ded939e",
+    "url": "/Curriculo/static/js/main.dbfebf25.chunk.js"
   },
   {
     "revision": "e23fb33207cb24d142959fb1ef4e3113",
@@ -52,7 +52,15 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/img009.ad3f9309.jpg"
   },
   {
-    "revision": "926e77cf45121b7741c575733d4949ea",
+    "revision": "7e1e96fe73f7b4785cc490932a6af120",
+    "url": "/Curriculo/static/media/logoGT.7e1e96fe.png"
+  },
+  {
+    "revision": "b8503d262bffbfb7c67fd6762963e7d1",
+    "url": "/Curriculo/static/media/logoBurger.b8503d26.png"
+  },
+  {
+    "revision": "1696a2330174d3b369137fcb758edc09",
     "url": "/Curriculo/index.html"
   }
 ];
