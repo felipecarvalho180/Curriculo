@@ -1,0 +1,43 @@
+.Azul {
+    margin-top: 60px;
+    color: #0187cd;
+}
+
+.Port {
+    padding: 50px;
+    border: solid 1px #cacaca;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+    .Port {
+        padding: 50px;
+        border: solid 1px #cacaca;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .Port {
+        padding: 50px;
+        margin-left: 15%;
+        border: solid 1px #cacaca;
+        background-color: white;
+        height: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

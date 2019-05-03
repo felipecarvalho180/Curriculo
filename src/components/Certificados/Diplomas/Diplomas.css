@@ -85,9 +85,10 @@
     }
 
     .Azul:hover {
+        border: 1px solid #0187cd;
         margin-top: 20px;
-        color: black;
         cursor: pointer;
+        background-color: #ccc;
     }
 
     .arrowDown {
@@ -128,6 +129,8 @@
         justify-content: space-around;
         box-shadow: 0 2px 7px #ccc;
         padding: 20px;
+        background-color: #eee;
+        border: 1px solid #0187cd;
     }
     
     .Diploma {
@@ -176,7 +179,12 @@
         flex-direction: column;
     }
 
-    
+    .Azul:hover {
+        border: 1px solid #0187cd;
+        margin-top: 20px;
+        cursor: pointer;
+        background-color: #ccc;
+    }
 
     .arrowDown {
         font-style: italic;

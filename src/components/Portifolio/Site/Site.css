@@ -1,0 +1,64 @@
+.Link {
+    border: 1px solid #0187cd;
+    background-color: #f8f8f8;
+    width: 200px;
+    display: block;
+}
+
+.Link:hover {
+    border: 3px solid #0187cd;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 7px #aaa;
+    width: 200px;
+    display: block;
+}
+
+.Imagem {
+    width: 100%;
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+    .Link {
+        border: 1px solid #0187cd;
+        background-color: #f8f8f8;
+        width: 200px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .Link:hover {
+        border: 3px solid #0187cd;
+        background-color: #f8f8f8;
+        box-shadow: 0 2px 7px #aaa;
+        width: 200px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .Imagem {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .Link {
+        border: 1px solid #0187cd;
+        background-color: #f8f8f8;
+        width: 200px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .Link:hover {
+        border: 3px solid #0187cd;
+        background-color: #f8f8f8;
+        box-shadow: 0 2px 7px #aaa;
+        width: 200px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .Imagem {
+        width: 100%;
+    }
+}
