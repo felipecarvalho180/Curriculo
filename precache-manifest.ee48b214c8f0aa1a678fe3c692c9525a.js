@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/img004.1a164e46.jpg"
   },
   {
-    "revision": "76d2f4001d341ded939e",
-    "url": "/Curriculo/static/css/main.ab6c2f77.chunk.css"
+    "revision": "cb5c13132fa99cdeabbe",
+    "url": "/Curriculo/static/css/main.4f9e0be4.chunk.css"
   },
   {
     "revision": "fa8696e4e3ec336dffce",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/img003.366053eb.jpg"
   },
   {
-    "revision": "76d2f4001d341ded939e",
+    "revision": "cb5c13132fa99cdeabbe",
     "url": "/Curriculo/static/js/main.dbfebf25.chunk.js"
   },
   {
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/logoBurger.b8503d26.png"
   },
   {
-    "revision": "174f47c33757b130218d5cb65ae03d9a",
+    "revision": "7b5c4971893aa613abde74562bf3a583",
     "url": "/Curriculo/index.html"
   }
 ];
