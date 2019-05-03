@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/Curriculo/static/media/logoBurger.b8503d26.png"
   },
   {
-    "revision": "1696a2330174d3b369137fcb758edc09",
+    "revision": "174f47c33757b130218d5cb65ae03d9a",
     "url": "/Curriculo/index.html"
   }
 ];
