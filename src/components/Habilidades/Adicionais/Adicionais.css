@@ -15,7 +15,12 @@
 
 .Skills {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
+    width: 100px;
+    justify-content: space-around;
+}
+
+.CSkills {
+    display: flex;
     justify-content: space-around;
 }

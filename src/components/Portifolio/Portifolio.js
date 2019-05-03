@@ -13,13 +13,16 @@ const portifolio = (props) => {
             <div className={classes.Port}>
                 <Site 
                     link="https://felipecarvalho180.github.io/Genetic-Testing/"
-                    img={LogoGT}/>
+                    img={LogoGT}
+                    legenda="Terminado em 03/01/2019"/>
                 <Site
                     link="https://felipecarvalho180.github.io/Landing-Page/"
-                    img={LogoLand}/>
+                    img={LogoLand}
+                    legenda="Terminado em 11/11/2018"/>
                 <Site
                     link="https://felipecarvalho180.github.io/Burger-Builder/"
-                    img={LogoBurger}/>
+                    img={LogoBurger}
+                    legenda="Em andamento"/>
             </div>
         </div>
     )
