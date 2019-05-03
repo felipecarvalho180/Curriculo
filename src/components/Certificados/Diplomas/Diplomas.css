@@ -68,7 +68,7 @@
 @media (min-width: 501px) {
     .Diplomas {
         margin: 0;
-        padding: 50px;
+        padding: 10px;
         border: solid 1px #cacaca;
         background-color: white;
         height: 100%;
@@ -80,6 +80,7 @@
 
     .Azul {
         margin-top: 20px;
+        border: 1px solid transparent;
         color: #0187cd;
         cursor: pointer;
     }
@@ -88,7 +89,8 @@
         border: 1px solid #0187cd;
         margin-top: 20px;
         cursor: pointer;
-        background-color: #ccc;
+        transition: .2s ease;
+        background-color: #eee;
     }
 
     .arrowDown {
@@ -127,7 +129,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        box-shadow: 0 2px 7px #ccc;
+        box-shadow: 0 2px 7px #eee;
         padding: 20px;
         background-color: #eee;
         border: 1px solid #0187cd;
@@ -170,7 +172,7 @@
 @media (max-width: 500px) {
     .Diplomas {
         margin-left: 15%;
-        padding: 50px;
+        padding: 10px;
         border: solid 1px #cacaca;
         background-color: white;
         height: 100%;

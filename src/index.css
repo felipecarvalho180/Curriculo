@@ -24,7 +24,7 @@ body {
 @media (min-width: 250px) and (max-width: 500px) {
   body {
     width: 50%;
-    margin: 0;
+    margin-left: 15%;
     padding: 50px;
     text-align: center;
     font-family: "Veneer Clean Soft";
@@ -33,5 +33,6 @@ body {
     background-color:#ebebeb;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
   }
 }
